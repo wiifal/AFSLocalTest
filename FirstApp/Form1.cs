@@ -19,7 +19,7 @@ namespace FirstApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            txtText.Text = "Hola mundo sample.";
+            txtText.Text = "Hello world sample.";
         }
     }
 }

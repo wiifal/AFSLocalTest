@@ -19,7 +19,12 @@ namespace FirstApp
 
         private void button1_Click(object sender, EventArgs e)
         {
-            txtText.Text = "Hello world sample.";
+            txtText.Text = "Hello world sample. This is a source control." + lstLista.Items[lstLista.SelectedIndex].ToString();
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

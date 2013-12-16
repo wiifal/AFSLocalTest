@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<fieldtrakNetConfig>
+
+  <DBConfig>
+    <DBServer>FALSERVER\FALSQLSERVER</DBServer>
+    <DBName>mjflood365_live</DBName>
+    <CompanyCode>MJ17</CompanyCode>
+  </DBConfig>
+
+    <KeysConfig>
+        <GoogleAJAXSearchAPIKey>ABQIAAAAuC_2_ITMn84BSmf6JOFsxRRXKImCElnDgcJCP7y7FDNxQ-bteRT7BPC9eNBwtgWCnsI9dtLqiy-mXQ</GoogleAJAXSearchAPIKey>
+        <GoogleGoogleMapsAPI>ABQIAAAAuC_2_ITMn84BSmf6JOFsxRRXKImCElnDgcJCP7y7FDNxQ-bteRT7BPC9eNBwtgWCnsI9dtLqiy-mXQ</GoogleGoogleMapsAPI>
+    </KeysConfig>
+
+  <EmailConfig>
+    <EmailHost>192.168.200.30</EmailHost>
+    <EmailFrom>service@mjf.ie</EmailFrom>
+    <EmailExchange>0</EmailExchange>
+  </EmailConfig>
+
+  <PageConfig>
+    <PageEntry>entry.htm</PageEntry>
+    <PageError>error.asp</PageError>
+  </PageConfig>
+
+  <FileConfig>
+    <FileDir>C:\fieldtrak\mjflood365_dev\</FileDir>
+    <FileLog>access.txt</FileLog>
+    <XMLFileLog>access.txt.xml</XMLFileLog>
+    <LogoImage>MJFT.jpg</LogoImage>
+  </FileConfig>
+
+  <InterfaceConfig>
+    <StandardResolutions>1</StandardResolutions>
+    <ProductFile>1</ProductFile>
+    <!-- 1: Yes 0: No -->
+  </InterfaceConfig>
+
+</fieldtrakNetConfig>
